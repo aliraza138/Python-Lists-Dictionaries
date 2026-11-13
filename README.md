@@ -1,10 +1,10 @@
-# 🛒 Smart Grocery Store Management System
+#  Smart Grocery Store Management System
 
 A comprehensive, beginner-friendly console application built in Python to streamline daily retail and grocery store operations. This project serves as a practical demonstration of how **Python Lists and Dictionaries** can be combined to act as an in-memory database for managing product inventories, tracking customer sales, and generating real-time business analytics.
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 1. [Project Overview](#-project-overview)
 2. [Folder & File Structure](#-folder--file-structure)
 3. [Data Structures & Schema Design](#-data-structures--schema-design)
@@ -16,7 +16,7 @@ A comprehensive, beginner-friendly console application built in Python to stream
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 Local grocery stores often struggle with manual record-keeping for stock levels, pricing, and daily revenue. The **Smart Grocery Store Management System** solves this problem by providing an interactive, menu-driven Command Line Interface (CLI) where a store owner or cashier can:
 * Maintain a structured catalog of items.
@@ -26,7 +26,7 @@ Local grocery stores often struggle with manual record-keeping for stock levels,
 
 ---
 
-## 📁 Folder & File Structure
+##  Folder & File Structure
 
 ```text
 Python Lists & Dictionaries/
@@ -37,7 +37,7 @@ Python Lists & Dictionaries/
 
 ---
 
-## 🗄️ Data Structures & Schema Design
+##  Data Structures & Schema Design
 
 This application relies on **Lists of Dictionaries** as its primary in-memory storage mechanism.
 
@@ -64,7 +64,7 @@ Whenever a customer purchase is completed, a transaction dictionary is appended 
 
 ---
 
-## 📊 Variables & Functions Reference Tables
+##  Variables & Functions Reference Tables
 
 ### Global & Local Variables
 
@@ -92,7 +92,7 @@ Whenever a customer purchase is completed, a transaction dictionary is appended 
 
 ---
 
-## ⚙️ Detailed Feature Breakdown
+##  Detailed Feature Breakdown
 
 1. **Add New Product (Option 1):**
    * Prompts the user for ID, Name, Category, Price, and Initial Stock.
@@ -115,7 +115,7 @@ Whenever a customer purchase is completed, a transaction dictionary is appended 
 
 ---
 
-## 🚀 How to Run the Application
+##  How to Run the Application
 
 ### Prerequisites
 * **Python 3.6 or higher** installed on your system. No external third-party libraries are required.
@@ -136,7 +136,7 @@ Whenever a customer purchase is completed, a transaction dictionary is appended 
 
 ---
 
-## 💻 Sample Console Output
+##  Sample Console Output
 
 ```text
 ====================================
@@ -168,7 +168,7 @@ Sale Completed Successfully!
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 * **Persistent Storage:** Integrate Python's `json` or `csv` module so inventory and sales records are saved permanently to disk between sessions.
 * **Exception Handling:** Add `try-except ValueError` blocks around numeric inputs (`int`/`float`) to prevent crashes if letters are entered accidentally.
 * **Receipt Export:** Generate `.txt` or `.pdf` invoices for customers after each completed sale.
